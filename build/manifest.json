@@ -1,0 +1,24 @@
+{
+  "short_name": "QuickGlance",
+  "name": "QuickGlance",
+  "description":"QuickGlance: Instant summaries and bullet points for web content. Simplify your reading!",
+  "permissions": ["tabs", "activeTab"],
+  "background.service_worker": {   
+     "scripts": ["background.js"], 
+      "persistent": false 
+    },
+  "manifest_version": 3,
+  "version": "0.0.1",
+  "action": {
+    "default_popup": "index.html",
+    "default_title": "QuickGlance",
+    "default_icon": {
+      "16": "logo.png"
+    }
+  },
+  "icons":{
+    "48": "logo48.png",
+    "128": "logo128.png"
+  }
+
+}
